@@ -1,0 +1,37 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+
+/* Todo se trata de los contenedores que esta dentro de cada cosa */
+
+nav {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(36,37,38);
+  background: linear-gradient(90deg, rgba(36,37,38,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+nav ul li {
+  padding: 0px 22px;
+  font-size: 32px;
+}
+
+
+.photoContainer {
+margin-left: 1%;
+}
+
+.photo{
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+}
